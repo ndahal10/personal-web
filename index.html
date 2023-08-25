@@ -34,8 +34,11 @@
         .content {
             display: flex;
             align-items: center;
-            width: 100%;
+            justify-content: space-between; /* Apply Flexbox */
+            flex-wrap: wrap; /* Wrap items if necessary */
             box-sizing: border-box;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
         .text {
             flex: 1;
@@ -53,7 +56,6 @@
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-            padding-top: 20px;
             box-sizing: border-box;
         }
         .contact-icon {
@@ -127,3 +129,4 @@
     </div>
 </body>
 </html>
+
