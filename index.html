@@ -1,15 +1,18 @@
+Certainly! Let's add a colorful border behind the introduction text to make it stand out even more:
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neelaza Dahal</title>
+    <title>Neelaza's Fun Page</title>
     <style>
         body {
-            font-family: "Times New Roman", serif;
+            font-family: "Comic Sans MS", cursive;
             margin: 0;
             padding: 0;
-            background-color: #f3f3f3;
+            background-color: #ffd700; /* Let's go for a bright and cheerful background */
         }
         .container {
             max-width: 1200px;
@@ -27,15 +30,16 @@
         }
         .header a {
             text-decoration: none;
-            color: #333;
+            color: #ff69b4; /* Pink for a pop of color */
             font-weight: bold;
             margin-left: 20px;
+            font-size: 20px; /* Increase font size for fun */
         }
         .content {
             display: flex;
             align-items: center;
-            justify-content: space-between; /* Apply Flexbox */
-            flex-wrap: wrap; /* Wrap items if necessary */
+            justify-content: space-between;
+            flex-wrap: wrap;
             box-sizing: border-box;
             padding-top: 20px;
             padding-bottom: 20px;
@@ -44,12 +48,16 @@
             flex: 1;
             padding: 0 20px;
             text-align: left;
+            background-color: #ff69b4; /* Pink background for the text section */
+            border-radius: 15px; /* Rounded corners for a playful look */
+            padding: 20px; /* Padding inside the border */
         }
         .profile-picture {
             width: 250px;
             height: 250px;
             border-radius: 50%;
             object-fit: cover;
+            border: 5px solid #ff69b4; /* Pink border for some flair */
         }
         .contact-icons {
             display: flex;
@@ -62,32 +70,37 @@
             flex: 1;
             text-align: center;
             margin: 10px;
+            transition: transform 0.3s ease; /* Add a smooth hover effect */
         }
         .contact-icon a {
             text-decoration: none;
-            color: #333;
-            font-size: 14px;
+            color: #ff69b4;
+            font-size: 18px; /* Slightly bigger font size */
             display: block;
             margin-top: 5px;
         }
         .contact-icon img {
-            width: 40px;
-            height: 40px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
+            border: 3px solid #ff69b4; /* Pink border */
+            transition: transform 0.3s ease; /* Add the same smooth hover effect */
         }
         .contact-icon:hover {
-            transform: scale(1.1);
+            transform: scale(1.1); /* Enlarge on hover for extra fun */
         }
         .important-text {
-            color: #d70000;
+            color: #ff4500; /* Bright orange for important text */
         }
         h1 {
-            font-size: 28px;
-            margin-bottom: 10px;
+            font-size: 36px; /* Larger header for impact */
+            margin-bottom: 20px; /* Increase spacing */
+            color: #ff69b4; /* Pink header */
         }
         p {
-            font-size: 16px;
-            margin: 10px 0;
+            font-size: 20px; /* Slightly larger text */
+            margin: 20px 0; /* Increase vertical spacing */
+            color: #333; /* Darker text color */
         }
     </style>
 </head>
@@ -96,15 +109,14 @@
         <div class="header">
             <a href="education.html">Education</a>
             <a href="Resume.pdf">Resume</a>
-
         </div>
         <div class="content">
             <img class="profile-picture" src="IMG_1001.JPG" alt="Profile Picture">
             <div class="text">
-                <h1>Hello, I am Neelaza Dahal.</h1>
-                <p>I am a third year student studying <span class="important-text">Computer Science</span> at the <span class="important-text">New Jersey Institute of Technology</span>.</p>
-                <p>I am interested in the cross-section of Finance and Technology and am looking to get more experience in the multimodal fields of <span class="important-text">Data Analytics</span> and <span class="important-text">Software Engineering</span>.</p>
-                <p>Feel free to look around and if you have any questions or want to chat, connect with me using the icons below!</p>
+                <h1>Welcome to my Portfolio!</h1>
+                <p>Hey there! I'm Neelaza Dahal, a third-year student studying <span class="important-text">Computer Science</span> at the <span class="important-text">New Jersey Institute of Technology</span>. I'm all about mixing Finance and Technology, diving into the exciting realms of <span class="important-text">Data Analytics</span> and <span class="important-text">Software Engineering</span>.</p>
+                <p>Outside of school, I love to travel, and try out different cuisines.</p>
+                <p>Feel free to explore around and drop me a message if you'd like to chat!</p>
             </div>
         </div>
         <div class="contact-icons">
@@ -130,4 +142,3 @@
     </div>
 </body>
 </html>
-
