@@ -43,18 +43,19 @@
         }
         .text {
             flex: 1;
-            padding: 0 10px;
+            padding: 0 20px;
             text-align: left;
             background-color: #507DB3; 
             border-radius: 15px; /* Rounded corners for a playful look */
-            padding: 10px; 
+            padding: 20px; 
         }
         .profile-picture {
             width: 250px;
             height: 250px;
             border-radius: 50%;
             object-fit: cover;
-            border: 5px solid #AEB4BA; 
+            position: relative;
+            left: -10px;
         }
         .contact-icons {
             display: flex;
@@ -67,7 +68,7 @@
             flex: 1;
             text-align: center;
             margin: 10px;
-            transition: transform 0.3s ease; /* Add a smooth hover effect */
+            transition: transform 0.3s ease;
         }
         .contact-icon a {
             text-decoration: none;
