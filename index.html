@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neelaza Dahal - coder, student, and a foodie </title>
+    <title>Neelaza Dahal - coder, student, and a foodie</title>
     <style>
         body {
             font-family: "Roboto", sans-serif;
             margin: 0;
             padding: 0;
-            background-color:#4c6ca8;
+            background-color: #4c6ca8;
             display: flex;
             justify-content: center;
+            align-items: center;
+            height: 100vh;
             text-align: center;
-            scroll-behavior: smooth;
+            color: #fff; /* White text color for readability */
         }
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
+            max-width: 800px;
+            width: 100%;
             padding: 20px;
-            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 90vh; /* Adjust as needed */
         }
         .header {
             display: flex;
@@ -37,39 +42,24 @@
             font-size: 20px; 
         }
         .content {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            box-sizing: border-box;
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-        .text {
-            flex: 1;
-            padding: 0 20px;
-            text-align: left;
-            background-color: #507DB3; 
-            border-radius: 15px; 
-            padding: 20px; 
+            flex-grow: 1;
+            padding: 20px;
         }
         .profile-picture {
             width: 250px;
             height: 250px;
             border-radius: 50%;
             object-fit: cover;
-            position: relative;
-            left: -10px;
+            margin: 20px auto;
         }
         .contact-icons {
             display: flex;
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-            box-sizing: border-box;
+            margin-top: 20px;
         }
         .contact-icon {
-            flex: 1;
             text-align: center;
             margin: 10px;
             transition: transform 0.3s ease;
@@ -77,7 +67,7 @@
         .contact-icon a {
             text-decoration: none;
             color: #ff69b4;
-            font-size: 18px; /* Slightly bigger font size */
+            font-size: 18px;
             display: block;
             margin-top: 5px;
         }
@@ -101,21 +91,23 @@
         p {
             font-size: 20px; /* Slightly larger text */
             margin: 20px 0; /* Increase vertical spacing */
-            color: #333; /* Darker text color */
+            color: #fff; /* White text for better contrast */
         }
     </style>
 </head>
 <body>
-        </div>
+    <div class="container">
         <div class="content">
             <img class="profile-picture" src="IMG_1001.JPG" alt="Profile Picture">
             <div class="text">
                 <p> Hi👋 My name is</p>
                 <h1> Neelaza Dahal </h1>
-                <p>I'm a cs student studying <span class="important-text"> <mark>Computer Science</mark> at the <span class="important-text"><mark> New Jersey Institute of Technology</mark>. 
-                    <p>I'm all about mixing Finance and Technology, diving into the exciting realms of <span class="important-text">Data Analytics</span> and <span class="important-text">Software Engineering</span>.</p>
+                <p>I'm a cs student studying <span class="important-text"><mark>Computer Science</mark></span> at the <span class="important-text"><mark>Jersey Institute of Technology</mark></span>.</p>
+                <p>I'm all about mixing Finance and Technology, diving into the exciting realms of <span class="important-text">Data Analytics</span> and <span class="important-text">Software Engineering</span>.</p>
                 <p>Outside of school, I love to travel, and try out different cuisines.</p>
-
+                <p>Feel free to explore around and drop me a message on my socials if you'd like to chat!</p>
+            </div>
+        </div>
         <div class="contact-icons">
             <div class="contact-icon">
                 <a href="https://github.com/ndahal10">
