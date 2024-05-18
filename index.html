@@ -10,21 +10,15 @@
             margin: 0;
             padding: 0;
             background-color: #4c6ca8;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
             color: #fff; /* White text color for readability */
         }
         .container {
             max-width: 800px;
             width: 100%;
+            margin: 0 auto;
             padding: 20px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            height: 90vh; /* Adjust as needed */
+            overflow-y: auto;
+            height: 100vh; /* Full viewport height */
         }
         .header {
             display: flex;
@@ -42,8 +36,8 @@
             font-size: 20px; 
         }
         .content {
-            flex-grow: 1;
             padding: 20px;
+            text-align: left; /* Align text to the left */
         }
         .contact-icons {
             display: flex;
@@ -94,16 +88,16 @@
             <div class="text">
                 <p> Hi👋 My name is</p>
                 <h1> Neelaza Dahal </h1>
-                <p>I'm a cs student at the <span class="important-text"><mark>New Jersey Institute of Technology</mark></span>.I'm all about mixing Finance and Technology, diving into the exciting realms of <span class="important-text">Data Analytics</span> and <span class="important-text">Software Engineering</span>.</p>
+                <p>I'm a cs student at the <span class="important-text"><mark>New Jersey Institute of Technology</mark></span>. I'm all about mixing Finance and Technology, diving into the exciting realms of <span class="important-text">Data Analytics</span> and <span class="important-text">Software Engineering</span>.</p>
                 
                 <p>Outside of school, I love to travel, and try out different cuisines. Some of my favorites include Pan-Asian and Mexican cuisines.</p>
                 <p>My technical skills include Python (Pandas), Java, JavaScript (React.js), C/C++, CSS/HTML, GitLab, Node.js, AWS, and Figma. If you'd like to connect with me, you can connect through any of the three below.</p>
             </div>
             
             <h1>Experiences</h1>
-            <P>Software Engineer Intern @ Nuveen, TIAA working with Data Visualization</P>
-            <P>Undergraduate Teaching Assistant @ NJIT working with students in introductory Python class</P>
-            <P>For the summer, I will be an Intern @ Prudential under their Global Technology Team!</P>
+            <p>Software Engineer Intern @ Nuveen, TIAA</p>
+            <p>Undergraduate Teaching Assistant @ NJIT for CS 100</p>
+            <p>For the summer, I will be an Intern @ Prudential under their Global Technology Team!</p>
         </div>
         <div class="contact-icons">
             <div class="contact-icon">
@@ -128,3 +122,4 @@
     </div>
 </body>
 </html>
+
